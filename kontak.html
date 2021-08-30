@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kontak</title>
+  <!-- link-bootsrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- link-css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- link-css1 -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<!-- link-fa -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- link-asset.js -->
+  <script src="assets.js"></script>
+</head>
+<body>
+
+	<!-- Navbar -->
+  <my-header></my-header>
+  <!-- Akhir Navbar -->
+
+  <!-- banner -->
+	<section class="banner mt-5">
+    
+	</section>
+
+  <!-- about -->
+	<section class="about">
+		<div class="container px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Halo UMKM</h1> 
+			<p><strong>Halo UMKM</strong> adalah situs produk umkm gagasan dari pemerintah Kota Ciamis sebagai media untuk memudahkan masyarakat dalam menemukan produk-produk UMKM dan wujud nyata pemerintah Kota Ciamis dalam meningkatkan kemajuan dan perkembangan UMKM Kota Ciamis.</p>
+		</div>
+	</section>
+
+	<!-- service -->
+	<section class="service">
+		<div class="container text-center">
+			  <div class=" px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold">SERVICE</h1>
+        </div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 mb-3">
+					<div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+					<h4>Alamat</h4>
+					<p>Jl. Jenderal Ahmad Yani No.171, Kertasari, Kec. Ciamis, Kabupaten Ciamis, Jawa Barat 46213</p>
+				</div>
+				<div class="col-md-4 col-sm-12 mb-3">
+					<div class="icon"><i class="fas fa-phone-alt"></i></div>
+					<h4>Telepon</h4>
+					<p>089696950727</p>
+				</div>
+				<div class="col-md-4 col-sm-12 mb-3">
+					<div class="icon"><i class="far fa-envelope"></i></div>
+					<h4>Email</h4>
+					<p>aldinanzahro13@gmail.com</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Kontak-start -->
+    <section id="Kontak">
+
+      
+        <div class=" px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold">Kontak & Lokasi</h1>
+        </div>   
+      
+
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.248614787824!2d108.36372661432134!3d-7.32594857407816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f5e9180716bb7%3A0xb31c985a6c1c1a0!2sDinas%20Koperasi%2C%20UKM%20dan%20Perdagangan%20Kab.%20Ciamis!5e0!3m2!1sid!2sid!4v1630280367286!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col">
+            <div class="container">
+              <div class="row text-center mb-3">
+                <div class="col">
+                  <h2>Contact Me</h2>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col">
+                  <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                    <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  <form name="wpu-contact-form">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nama Lengkap</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="pesan" class="form-label">Pesan</label>
+                      <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+      
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                      Loading...
+                    </button>
+                  </form>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Kontak-end -->
+
+<!-- footer-start -->
+<my-footer></my-footer>
+<!-- footer-end -->
+
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+  integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>

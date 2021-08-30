@@ -1,0 +1,85 @@
+a {
+	color: inherit;
+	text-decoration: none
+}
+
+.medsos {
+	padding: 5px 0;
+	background-color: #0d6efd;
+}
+
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+
+
+.banner {
+	height: 60vh;
+	background-image: url('banner2.png');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h2 {
+	padding: 15px 20px;
+	border: 2px solid #000;
+}
+
+section h3 {
+	text-align: center;
+	padding: 35px 0;
+	margin-bottom: -10px;
+}
+
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.service {
+	background-color: #f9f9f9;
+}
+
+.box after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.box .col-3 {
+	width: 33%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+
+.icon {
+	text-align: center;
+	line-height: 80px;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.box .col-3 h4 {
+	margin: 2px 0;
+}
+
+/*bagian contact*/
+.contact {
+	padding-top: 100px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.banner {
+		display: none;
+	}
+}
